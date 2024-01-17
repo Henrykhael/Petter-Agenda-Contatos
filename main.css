@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 170px;
+    background-color:rgb(170, 170, 142);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    height: 150px;
+}
+
+.inputs{
+    margin-right: 10vw;
+    width: 300px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.inputs form input{
+    height: 30px;
+    width: 300px;
+    background-color: beige;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.inputs button{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    background-color: #fff;
+}
+
+.contatos{
+    background-color: rgb(241, 241, 227);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vw;
+    width: 100vw;
+    height: 100vw;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.contatos th{
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+tbody td{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
